@@ -75,8 +75,7 @@ class LdapVo(LdapEntity):
 
         @raise NoSuchVoError if the VO cannot be found.
         """
-        super(LdapVO, self).__init__(self.LDAP_OBJECT_CLASS_ATTRIBUTES)
-
+        super(LdapVo, self).__init__(self.LDAP_OBJECT_CLASS_ATTRIBUTES)
         self.vo_id = vo_id
 
     def get_ldap_info(self):
