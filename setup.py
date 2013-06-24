@@ -49,13 +49,16 @@ shared_setup.SHARED_TARGET.update({
 
 PACKAGE = {
     'name': 'vsc-ldap',
-    'install_requires': ['vsc-base >= 1.2', 'python-ldap'],
-    'version': '1.2',
+    'version': '1.3',
     'author': [ag, sdw, wdp],
     'maintainer': [ag],
     'packages': ['vsc', 'vsc.ldap'],
     'namespace_packages': ['vsc'],
     'scripts': [],
+    'install_requires': [
+        'vsc-base >= 1.6',
+        'vsc-utils >= 1.3',
+        'python-ldap'],
     'provides': ['python-vsc-packages-ldap = 0.3'],
 }
 
