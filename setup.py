@@ -59,7 +59,7 @@ PACKAGE = {
         'vsc-base >= 1.7.0',
         'python-ldap'
     ],
-    'version': '1.3.3',
+    'version': '1.4',
     'author': [ag, kh, sdw, wdp],
     'maintainer': [ag],
     'packages': ['vsc', 'vsc.ldap'],
